@@ -1,3 +1,4 @@
+import GirlsCollectionCard from "./GirlsCollectionCard";
 
 
 const GirlsCollection = () => {
@@ -9,6 +10,7 @@ const GirlsCollection = () => {
             <div className="flex-1">
                 <h1 className="text-2xl font-semibold">For Girls</h1>
                 <hr />
+                <GirlsCollectionCard></GirlsCollectionCard>
             </div>
         </div>
     );
