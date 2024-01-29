@@ -3,7 +3,8 @@
 const Navbar = () => {
     const navOptions = <>
 
-<li>Item 111</li>
+<li>Home</li>
+<li>Contact</li>
         {/* <li>
           <a>Parent</a>
           <ul className="p-2">
