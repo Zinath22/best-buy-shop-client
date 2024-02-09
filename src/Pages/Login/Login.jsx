@@ -20,10 +20,10 @@ const [disabled, setDisabled] = useState(true);
     const user_captcha_value = captchaRef.current.value;
     // console.log(user_captcha_value);
     if(validateCaptcha(user_captcha_value)){
-
+      setDisabled(false);
     }
     else{
-
+      setDisabled(true);
     }
    }
 
