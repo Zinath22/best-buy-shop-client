@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { loadCaptchaEnginge, LoadCanvasTemplate, LoadCanvasTemplateNoReload, validateCaptcha } from 'react-simple-captcha';
+import Swal from 'sweetalert2';
 
 const Login = () => {
 const captchaRef = useRef(null);
@@ -25,6 +26,12 @@ const [disabled, setDisabled] = useState(true);
     else{
       setDisabled(true);
     }
+
+    Swal.fire({
+      title: "Good job!",
+      text: "You clicked the button!",
+      icon: "success"
+    });
    }
 
     return (
