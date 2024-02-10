@@ -11,7 +11,7 @@ const Registration = () => {
            
             <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 lg:text-left">
              <h1 className="text-center my-5 text-3xl font-semibold text-yellow-500">Please Login</h1>
-             <form onSubmit={handleLogin} className="card-body">
+             <form onSubmit={handleRegistration} className="card-body">
                <div className="form-control">
                  <label className="label">
                    <span className="label-text">Email</span>
