@@ -14,6 +14,12 @@ const Registration = () => {
              <form onSubmit={handleRegistration} className="card-body">
                <div className="form-control">
                  <label className="label">
+                   <span className="label-text">Name</span>
+                 </label>
+                 <input type="text" name="name" placeholder="email" className="input input-bordered" required />
+               </div>
+               <div className="form-control">
+                 <label className="label">
                    <span className="label-text">Email</span>
                  </label>
                  <input type="email" name="email" placeholder="email" className="input input-bordered" required />
@@ -28,7 +34,7 @@ const Registration = () => {
                  </label>
                </div>
                <div className="form-control mt-6">
-                 <button className="btn btn-primary">Login</button>
+                 <button className="btn btn-primary">Register</button>
                  {/* <input className="btn btn-primary" type="Submit" value={"login"} /> */}
                </div>
              </form>
